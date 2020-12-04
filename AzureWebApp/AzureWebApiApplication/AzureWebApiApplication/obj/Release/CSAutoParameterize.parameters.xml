@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
   <parameter name="DBCtx-Web.config Connection String" description="DBCtx Connection String used in web.config by the application to access the database." defaultValue="data source=DESKTOP-ULS8GGV\BARAJEVAC;initial catalog=AzureDBTest;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="C:\\Users\\Barajevac\\source\\repos\\AzureWebApiApplication\\AzureWebApiApplication\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DBCtx']/@connectionString" />
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Barajevac\\Documents\\GitHub\\AzureWebApplicationTest\\AzureWebApp\\AzureWebApiApplication\\AzureWebApiApplication\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DBCtx']/@connectionString" />
   </parameter>
 </parameters>
