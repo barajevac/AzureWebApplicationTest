@@ -13,7 +13,6 @@ namespace AzureWebApiApplication.Models
 		public string FirstName { get; set; }
 		public string LastName { get; set; }
 
-		public Guid OrganizationId { get; set; }
 		public Organization Organizations { get; set; }
 	}
 }
