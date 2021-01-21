@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="AzureWebApiApplication20201128124852" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Barajevac\\Documents\\GitHub\\AzureWebApplicationTest\\AzureWebApp\\AzureWebApiApplication\\AzureWebApiApplication\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Barajevac\\Documents\\GitHub\\AzureWebApplicationTest\\AzureWebApp\\AzureWebApiApplication\\AzureWebApiApplication\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DBCtx-Web.config Connection String" description="DBCtx Connection String used in web.config by the application to access the database." value="data source=DESKTOP-ULS8GGV\BARAJEVAC;initial catalog=AzureDBTest;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Barajevac\\Documents\\GitHub\\AzureWebApplicationTest\\AzureWebApp\\AzureWebApiApplication\\AzureWebApiApplication\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DBCtx']/@connectionString" />
+  </parameter>
+</parameters>

@@ -12,7 +12,7 @@ namespace AzureWebApiApplication.Controllers
         // GET: api/Test
         public IEnumerable<string> Get()
         {
-            return new string[] { "value1", "value2", "value3", "value4" };
+            return new string[] { "value1", "value2", "value3", "value4", "value5" };
         }
 
         // GET: api/Test/5
