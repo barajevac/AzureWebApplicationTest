@@ -19,7 +19,7 @@ namespace AzureWebApiApplication.Controllers
 		public IHttpActionResult Get()
 		{
 			List<Organization> getAllOrganization = GenericRepository.GetAll();
-			return Ok(getAllOrganization);
+			return Ok(getAllOrganization);  
 		}
 
 		public IHttpActionResult Get(Guid id)
